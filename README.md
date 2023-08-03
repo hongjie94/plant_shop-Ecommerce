@@ -1,4 +1,4 @@
-# NgProject101
+# Plant_shop-ecommerce
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 

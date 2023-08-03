@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+@font-face {
+  font-family: 'Quella Regular';
+  src: local('Quella Regular'), url('./assets/Quella-owYdA.woff') format('woff');
+}
+
+:root {
+  --backgroundColor: #C1DCDC; 
+  --color_text: #1E1E1E; 
+  --color_text_75: rgba(30, 30, 30, 0.75); 
+  --color_text_50: rgba(30, 30, 30, 0.50); 
+}
+
+body {
+  margin: 0;
+}

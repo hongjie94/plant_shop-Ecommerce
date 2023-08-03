@@ -1,0 +1,62 @@
+.aboutWrap {
+  display: flex;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Poppins;
+  margin-bottom: 165px;
+  margin-right: 6rem;
+  margin-left: 6rem;
+}
+
+.aboutWrap .heading > h1 {
+  color: var(--color_text);
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.aboutWrap .heading > p {
+  color: var(--color_text_50);
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding-top: 12px;
+}
+
+
+.cardWrap {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card {
+  width: 400px;
+
+}
+.iconWrap {
+  text-align: center;
+}
+.iconWrap > svg {
+  padding-bottom: 24px;
+}
+
+.IconHeaderText, .IconSubText {
+  margin: 0;
+}
+
+.IconHeaderText{
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 12px;
+}
+
+.IconSubText {
+  color: var(--color_text_50);
+  font-size: 18px;
+  font-weight: 500;
+}

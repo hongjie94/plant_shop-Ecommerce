@@ -1,0 +1,102 @@
+.customersWrap {
+  height: 800px;
+  margin: 0 6rem;
+}
+
+.customersWrap h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 6rem 0 3rem 0;
+  margin: 0;
+}
+
+.customersCards {
+  width: calc(100vw - 12rem);
+  overflow-x: auto;
+  display: flex;
+  gap: 48px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.customersCard{
+  min-width: 800px;
+  height: 330px;
+  border-radius: 12px;
+  background: var(--backgroundColor);
+}
+
+.customersCard .discription{ 
+  color: var(--color_text_75);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 3rem 3rem 0 3rem;
+  min-height: 80px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin-top: 54px;
+}
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+#rating {
+  color: var(--color_text);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+}
+.customersCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.profile, .person {
+  display: flex;
+}
+.person img {
+  width: 125px;
+  position: absolute;
+}
+.person > .name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+.initName {
+  color: var(--color_text);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 700;
+}
+.job {
+  color: var(--color_text_50);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+}
+.personImg2 {
+  bottom: .2rem;
+  left: 1.75rem;
+}
+.personImg1 {
+  bottom: -.5rem;
+  left: 1.55rem;
+}
+/* .person svg {
+  padding: 0 3rem; */
+
+

@@ -1,0 +1,56 @@
+.navBar {
+  margin: 0 6rem;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-size: 24px;
+  font-family: 'Quella Regular';
+  color: var(--color_text);
+  line-height: normal;
+}
+
+.NavStartWrap {
+  display: flex;
+}
+
+.NavStartWrap > ul {
+  list-style-type: none;
+  margin: auto 6rem;;
+  padding: 0;
+}
+
+.NavStartWrap ul >li {
+  display: inline;
+  padding: 0 3rem;
+  text-decoration: none; 
+  color: var(--color_text_50);
+  cursor: pointer;
+  transition: color 0.2s ease; 
+}
+
+.NavStartWrap ul >li:hover {
+  color: var(--color_text) !important;
+  font-weight: 500;
+}
+
+.active {
+  color: var(--color_text) !important;
+  font-weight: 500;
+}
+
+.NavEndWrap img {
+  width: 20px;
+}
+
+.personIcon {
+  margin-left: 3rem;
+}
